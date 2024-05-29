@@ -1,130 +1,126 @@
-.blogposts-section {
-    width: 100vw;
-    height: auto;
-    min-height: 100vh;
-    padding-bottom: 8rem;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+    
 }
 
-.blogposts-heading {
-    color: black;
-    text-align: center;
-    margin-bottom: 2rem;
-    padding-top: 3rem;
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
 }
 
-.blogposts {
+/* Blog section */
+#blog{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    transform: translateY(80px);
-    padding: 0;
+    flex-direction: row;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    color: salmon;
+}
+
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: darkblue;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-direction: row;
+}
+
+.blog-box{
+    width: 350px;
+    background-color: pink;
+    border: 1px solid yellow;
+    margin: 20px;
+    
+}
+
+.blog-img{
+    width: 100%;
     height: auto;
 }
 
-.blogposts-cell {
-    flex: 0 1 500px;
-    max-width: 250px;
-    height: 275px;
-    margin: 2px;
-    position: relative;
-    text-align: center;
-    z-index: 1;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    cursor: pointer;
-
-}
-
-.blogposts-cell_img {
-    object-fit: scale-down;
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     object-position: center;
 }
 
-.blogposts-cell_text {
-    height: 100%;
-    width: 60%;
-    margin: 0 auto;
+.blog-text{
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-transform: uppercase;
+}
+
+.blog-text span {
+    color: magenta;
+    font-size: 0.9rem;
+}
+
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
     color: black;
-    font-weight: 700;
-    font-size: 1rem;
-    transition: opacity 350ms;
-    text-shadow: 2px 2px 2px black;
 }
 
-.blogposts-cell::before,.blogposts-cell::after,.blogposts-cell_img {
-    top: -50%;
-    width: 100%;
-    height: 200%;
-    display: block;
-    position: absolute;
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    z-index: -1;
+.blog-text .blog-title:hover{
+    color: salmon;
+    transition: all ease 0.3s;
 }
 
-/* hover button */
-.blogposts-cell:hover {
-    opacity: 1;
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.2);
-    z-index: 99;
+.blog-text p{
+    color: gray;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
 }
 
-.blogposts-cell:before {
-    content: '';
-    position: absolute;
-    opacity: 0.4;
-    width: 350px;
-    height: 70px;
-    background: wheat;
-    top: 50;
-    left: 0;
-    z-index: 1;
-    transform: rotate(45deg);
-    transition: transform 1.5s;
+.blog-text a{
+    color: black;
 }
 
-.blogposts-cell:hover:before {
-    transform:translate(-100px, 600%) rotate(45deg);
-    transition: transform 0.5s;
+.blog-text a:hover{
+    color: salmon;
+    transition: all ease 0.3s;
 }
 
-@media screen and (min-width: 550px) and (max-width:825px) {
-    .blogposts-cell:nth-child(3n) {
-        margin-right: calc(50% - 125px);
-        margin-left: calc(50% - 125px);
-    }
-    .blogposts-cell:nth-child(3) {
-        top: -70px;
-    }
-    .blogposts-cell:nth-child(4) {
-        top: -140px;
-    }
-
-    .blogposts-cell:nth-child(5) {
-        top: -140px;
+@media (max-width:1250px) {
+    .blog-box{
+        width: 300px;
     }
 }
 
-@media screen and (min-width:825px) and (max-width:1100px) {
-    .blogposts-cell:nth-child(4) {
-        top: -140px;
-        margin-right: calc(50% - 160px);
-        /* position: relative; */
-    }
-  
-
-
-    .blogposts-cell:nth-child(5) {
-        top: -140px;
-        margin-left: calc(50% - 80%);
-        position: relative;
-        
+@media(max-width:1100px) {
+    .blog-box {
+        width: 70%;;
     }
 }
