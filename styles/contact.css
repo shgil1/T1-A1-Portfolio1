@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact, .content{
+    width: 100%;
+    padding: 25px;
+}
+
+.contact h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: darkblue;
+}
+
+.content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: darkgreen;
+}
+
+.content h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+.content p{
+    color: maroon;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+label {
+    color: peru;
+    font-size: 17px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    /* border: none; */
+    border-color: darkgray;
+    outline: none;
+}
+
+button{
+    font-size: 17px;
+    background-color: pink;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: wheat;
+}
+
+
+/* For mobile phones */
+@media screen and (max-width:450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* For Tablets */
+
+@media screen and (max-width:850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
+
+
