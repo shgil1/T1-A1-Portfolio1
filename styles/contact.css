@@ -2,11 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: poppins;
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #f2e9e4;
 }
 
 .container{
