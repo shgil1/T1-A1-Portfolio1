@@ -1,6 +1,7 @@
 #blog{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 40px;
@@ -8,37 +9,44 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     background-color: #f2e9e4;
 }
-.blog-heading {
+
+.blog-heading h3{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1e3231;
+    
 }
 
 .blog-heading span {
-    color: salmon;
+    color: #885053;
+    
+    
 }
 
-.blog-heading h3{
-    font-size: 2.4rem;
-    color: darkblue;
-    font-weight: 600;
-}
 .blog-container{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
-    flex-direction: row;
-}
+}   
 
 .blog-box{
     width: 350px;
-    background-color: pink;
-    border: 1px solid yellow;
-    margin: 20px 20px;
-    
-    
+    background-color: #fbc3bc;
+    border: 3px solid #775144;
+    margin: 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+
 }
 
 .blog-img{
@@ -60,14 +68,17 @@
 }
 
 .blog-text span {
-    color: magenta;
+    color: #512136;
     font-size: 0.9rem;
+    font-weight: 600;
+   
 }
 
 .blog-text .blog-title{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    color: black;
+    color: #22181C;
+  
 }
 
 .blog-text p{
@@ -86,7 +97,7 @@
 }
 
 .blog-text a:hover{
-    color: salmon;
+    color: #b9a394;
     transition: all ease 0.3s;
 }
 
