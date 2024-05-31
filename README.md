@@ -9,7 +9,7 @@ https://github.com/shgil1/T1-A2-Portfolio
 ## Purpose
 This portfolio assignment is intended to showcase my skills, projects and experiences as an aspiring web developer. My aim is to not only showcase my technical skills but also my personality to potential employers.
 
-### Functionality/Features
+## Functionality/Features
     1. Main Navigation Bar
     The main navigation bar is present at the top of each page to allow users to easily access all pages across the site, this includes the home, about me, projects, blogs and contact pages. When using a mobile device the nav bar will easily be accessed via a drop down menu. 
 
@@ -26,10 +26,18 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 
 
 ### Screenshots
-
+Home Page:
+![alt text](image-1.png)
 ## Sitemap
 
 ![alt text](image.png)
+
+- There are 5 main pages of the site which include:
+1. Home page
+2. About Me page
+3. Projects page with 3 posts
+4. Blog page with 5 blog posts
+5. Contact Me page
 
 ## Target audience
 This portfolio is designed to demonstrate my skills and abilities to potential employers in the IT sector. I intended to highlight my previous background knowledge in healthcare and my desire to implement that in the tech space and garner interest from IT employers to collaborate in the future. 

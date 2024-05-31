@@ -308,8 +308,12 @@
       transform: translateY(-8px) rotate(-45deg);
     }
 
-/* .img__box {
-  display: flex; */
+.home {
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
 
   
 
