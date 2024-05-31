@@ -169,13 +169,9 @@
   /* Hover Effect for Social Media Icons */
 
   .socialIcons a:hover {
-    background-color: black;
-    transition: 0.5s;
-  }
-
-  .socialIcons a:hover i{
-    color: white;
-    transition: 0.5s;
+    background-color: #d4c5c7;
+    transition: 0.3s;
+    border-radius: 30%;
   }
 
   .footerNav {
