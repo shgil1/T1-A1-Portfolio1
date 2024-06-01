@@ -55,19 +55,3 @@ p {
     font-size: 16px;
     line-height: 1.3;
 }
-
-
-@media screen and (max-width: 850px){
-    header {
-        margin-top: 40px;
-    }
-    header p {
-        width: 70vw;
-    }
-}
-
-@media screen and (max-width: 430px){
-    header p {
-        width: 90vw;
-    }
-}
