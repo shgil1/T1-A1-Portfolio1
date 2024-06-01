@@ -32,6 +32,9 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 
 
 ### Screenshots
+- I do not have any design background but I decided on the aesthetic of the website to be minimal and using earthy tones. I used a colour pallete that I generated from coolors and selected each colour. 
+- For the about me page I selected a background image that was Japanese themed to incorporate my Japanese heritage. 
+- For the blog post page I used this page as catalyst to showcase my love for my pets and animals. Animal rescue is a huge part of my life and I wanted to include as many images of my animals as I could. 
 - The following screenshots of the wireframes created for each page on different devices in the order they appear on the website:
 
 Home Page:
@@ -81,6 +84,8 @@ Websites used in this portfolio:
 - GitHub
 - Figma 
 - Trello
+- Coolors
+- Colourcontrast
 
 Application used to build this portfolio:
 - VSCode
