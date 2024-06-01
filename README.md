@@ -11,22 +11,22 @@ This portfolio assignment is intended to showcase my skills, projects and experi
 
 ## Functionality/Features
 1. Main Navigation Bar
-The main navigation bar is present at the top of each page to allow users to easily access all pages across the site, this includes the home, about me, projects, blogs and contact pages. When using a mobile device the nav bar will easily be accessed via a drop down menu. 
+- The main navigation bar is present at the top of each page to allow users to easily access all pages across the site, this includes the home, about me, projects, blogs and contact pages. When using a mobile device the nav bar will easily be accessed via a drop down menu. 
 
 2. Logo
-I designed my own custom logo on canva by incorporating my love of animals and my name written in Japanese. When selected, this logo allows users to return to the home page. 
+- I designed my own custom logo on canva by incorporating my love of animals and my name written in Japanese. When selected, this logo allows users to return to the home page. 
 
 3. Social Media Navigation Bar
-This is located in the footer of each page and is represented by the respective media icon. When selected, a new tab opens in the browser to the corresponding platform. I have linked my github, facebook, tiktok and linkedin to allow various ways to contact me.
+- This is located in the footer of each page and is represented by the respective media icon. When selected, a new tab opens in the browser to the corresponding platform. I have linked my github, facebook, tiktok and linkedin to allow various ways to contact me.
 
 4. Blog Posts
-I designed each blog post image to showcase my passion of animals and healthcare. There is a read more button located on each post and when selected, it will lead users to a dedicated blog post page. There is a "back to blog" button located at the bottom of each post to allow users to return to the main blog page. 
+- I designed each blog post image to showcase my passion of animals and healthcare. There is a read more button located on each post and when selected, it will lead users to a dedicated blog post page. There is a "back to blog" button located at the bottom of each post to allow users to return to the main blog page. 
 
 5. Footer
-The footer navigation bar at the bottom of every page was designed to allow users to easily click on the corresponding icon to open up my respective social media page in a new tab. Below the social icons is the menu navigation bar allowing users to navigate to any page of the website no matter where they are on the site. Below that is a small footer bar allowing users to see that I designed this website. 
+- The footer navigation bar at the bottom of every page was designed to allow users to easily click on the corresponding icon to open up my respective social media page in a new tab. Below the social icons is the menu navigation bar allowing users to navigate to any page of the website no matter where they are on the site. Below that is a small footer bar allowing users to see that I designed this website. 
 
 6. Buttons
-I have included a button for my resume on the home page designed to be easily accessible to users as it opens in a new tab. I have also included 'read more' buttons on each blog post in the main blog page to allow users to read the entire blog post on a seperate page in a new tab. On each blog post there is a 'back to blog page' button allowing users to easily return to the main blog page after each post.  
+- I have included a button for my resume on the home page designed to be easily accessible to users as it opens in a new tab. I have also included 'read more' buttons on each blog post in the main blog page to allow users to read the entire blog post on a seperate page in a new tab. On each blog post there is a 'back to blog page' button allowing users to easily return to the main blog page after each post.  
 
 
 
