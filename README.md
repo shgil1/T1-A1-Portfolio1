@@ -25,6 +25,9 @@ I designed each blog post image to showcase my passion of animals and healthcare
 5. Footer
 The footer navigation bar at the bottom of every page was designed to allow users to easily click on the corresponding icon to open up my respective social media page in a new tab. Below the social icons is the menu navigation bar allowing users to navigate to any page of the website no matter where they are on the site. Below that is a small footer bar allowing users to see that I designed this website. 
 
+6. Buttons
+I have included a button for my resume on the home page designed to be easily accessible to users as it opens in a new tab. I have also included 'read more' buttons on each blog post in the main blog page to allow users to read the entire blog post on a seperate page in a new tab. On each blog post there is a 'back to blog page' button allowing users to easily return to the main blog page after each post.  
+
 
 
 
