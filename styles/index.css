@@ -217,7 +217,7 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     padding: 0;
 }
   
@@ -245,7 +245,9 @@
   }
   
   #navbar__logo {
-    padding-left: 25px;
+    margin-left: 1px;
+    font-size: 1.2em;
+    padding-right: 5%;
   }
   
   .navbar__toggle .bar {
@@ -348,6 +350,10 @@
     align-items: center;
     font-size: 50%;
 
+  }
+
+  .footerBottom {
+    padding: 0%;
   }
 
   .button__1 {
