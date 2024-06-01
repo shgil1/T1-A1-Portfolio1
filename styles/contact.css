@@ -9,6 +9,7 @@ body {
     background-color: #f2e9e4;
 }
 
+/* main containter with info inside */
 .container{
     width: 80%;
     margin: 60px auto;
@@ -16,6 +17,7 @@ body {
     justify-content: center;
 }
 
+/* contact me section */
 .contact, .content{
     width: 100%;
     padding: 25px;
@@ -27,6 +29,7 @@ body {
     color: #334139;
 }
 
+/* Contact info section */
 .content h1{
     font-size: 35px;
     margin-bottom: 15px;
@@ -45,7 +48,7 @@ body {
     line-height: 2.5;
 }
 
-
+/* Contact me submission box labels */
 label {
     color: peru;
     font-size: 17px;
@@ -63,6 +66,7 @@ input, textarea{
     outline: none;
 }
 
+/* Button to submit info */
 button{
     font-size: 17px;
     background-color: #885053;

@@ -8,6 +8,7 @@
     padding: 30px 12% 0;
 }
 
+/* Hi Im Sharla Section */
 .home__content {
     max-width: 800px;
 }
@@ -31,6 +32,7 @@
     
 }
 
+/* Button to open resume */
 .button__box {
     width: 345px;
     display: flex;
@@ -55,6 +57,7 @@
     border: 2px solid #dfbab0;
 }
 
+/* Image of me */
 .img__box img{
     border-radius: 50%;
     width: 550px;
