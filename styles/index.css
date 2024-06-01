@@ -16,8 +16,7 @@
     flex: 1;
   }
 
-  /* navigation bar */
-
+  /* Navigation bar */
   .navbar {
     background: #a78682;
     height: 80px;
@@ -43,8 +42,7 @@
     padding-left: 50px;
   }
 
-  /* logo */
-  
+  /* Logo */
   #sg-logo {
     height: 200px;
     width: 180px;
@@ -73,8 +71,7 @@
     margin-right: 0.5rem;
   }
   
-  /* navigation menu */
-
+  /* Navigation menu */
   .navbar__menu {
     display: flex;
     align-items: center;
@@ -105,7 +102,6 @@
   }
   
   /* Contact button */
-
   .button {
     display: flex;
     justify-content: center;
@@ -133,7 +129,6 @@
 
   
   /* Footer section */
-
   footer {
     background-color: #1e2d24;
     position: bottom;
@@ -149,7 +144,6 @@
   }
   
   /* Social Media Icons */
-
   .socialIcons{
     display: flex;
     justify-content: center;
@@ -168,7 +162,6 @@
   }
 
   /* Hover Effect for Social Media Icons */
-
   .socialIcons a:hover {
     background-color: #d4c5c7;
     transition: 0.3s;
@@ -199,7 +192,6 @@
 }
 
 /* Copyright bottom footer */
-
 .footerBottom{
   background-color: #2e3c34;
   padding: 10px;
@@ -213,7 +205,6 @@
 }
 
 /* Media query for Mobile Phones and Tablets -----------------> */
-
 @media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;

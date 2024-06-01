@@ -10,25 +10,49 @@ https://github.com/shgil1/T1-A2-Portfolio
 This portfolio assignment is intended to showcase my skills, projects and experiences as an aspiring web developer. My aim is to not only showcase my technical skills but also my personality to potential employers.
 
 ## Functionality/Features
-    1. Main Navigation Bar
-    The main navigation bar is present at the top of each page to allow users to easily access all pages across the site, this includes the home, about me, projects, blogs and contact pages. When using a mobile device the nav bar will easily be accessed via a drop down menu. 
+1. Main Navigation Bar
+The main navigation bar is present at the top of each page to allow users to easily access all pages across the site, this includes the home, about me, projects, blogs and contact pages. When using a mobile device the nav bar will easily be accessed via a drop down menu. 
 
-    2. Logo
-    I designed my own custom logo on canva by incorporating my love of animals and my name written in Japanese. When selected, this logo allows users to return to the home page. 
+2. Logo
+I designed my own custom logo on canva by incorporating my love of animals and my name written in Japanese. When selected, this logo allows users to return to the home page. 
 
-    3. Social Media Navigation Bar
-    This is located in the footer of each page and is represented by the respective media icon. When selected, a new tab opens in the browser to the corresponding platform. I have linked my github, facebook, tiktok and linkedin to allow various ways to contact me.
+3. Social Media Navigation Bar
+This is located in the footer of each page and is represented by the respective media icon. When selected, a new tab opens in the browser to the corresponding platform. I have linked my github, facebook, tiktok and linkedin to allow various ways to contact me.
 
-    4. Blog Posts
-    I designed each blog post image to showcase my passion of animals and healthcare. There is a read more button located on each post and when selected, it will lead users to a dedicated blog post page. There is a "back to blog" button located at the bottom of each post to allow users to return to the main blog page. 
+4. Blog Posts
+I designed each blog post image to showcase my passion of animals and healthcare. There is a read more button located on each post and when selected, it will lead users to a dedicated blog post page. There is a "back to blog" button located at the bottom of each post to allow users to return to the main blog page. 
+
+5. Footer
+The footer navigation bar at the bottom of every page was designed to allow users to easily click on the corresponding icon to open up my respective social media page in a new tab. Below the social icons is the menu navigation bar allowing users to navigate to any page of the website no matter where they are on the site. Below that is a small footer bar allowing users to see that I designed this website. 
 
 
 
 
 ### Screenshots
+- The following screenshots of the wireframes created for each page on different devices in the order they appear on the website:
+
 Home Page:
-![alt text](image-1.png)
+![alt text](image-4.png)
+
+About Me Page:
+![alt text](image-5.png)
+
+Projects Page:
+![alt text](image-6.png)
+
+Blog Page:
+![alt text](image-8.png)
+
+Blog Post Page: 
+![alt text](image-9.png)
+- Each blog post will have the same layout including a button that allows users to navigate back to the main blog page after each post
+
+Contact Me Page:
+![alt text](image-7.png)
+
+
 ## Sitemap
+- The following screenshot is of the sitemap I created when I first drafted my design for how the website layout will be:
 
 ![alt text](image.png)
 
