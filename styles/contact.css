@@ -79,5 +79,22 @@ button:hover{
 }
 
 
+/* For mobile phones */
+@media screen and (max-width:450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+/* For Tablets */
+
+@media screen and (max-width:960px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}    
+
 
 

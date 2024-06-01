@@ -6,19 +6,18 @@
 
   }
 
-  /* body---- */
   body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
 
-  /* main----- */
   main {
     flex: 1;
   }
 
   /* navigation bar */
+
   .navbar {
     background: #a78682;
     height: 80px;
@@ -45,7 +44,7 @@
   }
 
   /* logo */
-
+  
   #sg-logo {
     height: 200px;
     width: 180px;
@@ -106,6 +105,7 @@
   }
   
   /* Contact button */
+
   .button {
     display: flex;
     justify-content: center;
@@ -133,6 +133,7 @@
 
   
   /* Footer section */
+
   footer {
     background-color: #1e2d24;
     position: bottom;
@@ -147,6 +148,8 @@
     flex-direction: column;
   }
   
+  /* Social Media Icons */
+
   .socialIcons{
     display: flex;
     justify-content: center;
@@ -155,9 +158,7 @@
   .socialIcons a{
     text-decoration: none;
     padding: 10px;
-    /* background-color: white; */
     margin: 10px;
-    /* border-radius: 50%; */
   }
 
   .socialIcons a i{
@@ -197,6 +198,8 @@
   opacity: 1;
 }
 
+/* Copyright bottom footer */
+
 .footerBottom{
   background-color: #2e3c34;
   padding: 10px;
@@ -209,7 +212,8 @@
   font-size: small;
 }
 
-/* Media query for Tablets -----------------> */
+/* Media query for Mobile Phones and Tablets -----------------> */
+
 @media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;
@@ -219,7 +223,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0;
-}
+  }
   
   .navbar__menu {
     display: grid;
@@ -376,46 +380,20 @@
 
   }
     
-  /* @media screen and (max-width:480px) {
-    .footer__links {
-      padding-top: 2rem;
-    }
-    
-    #footer__logo {
-      margin-bottom: 2rem;
-    }
-    
-    .website__rights {
-      margin-bottom: 2rem;
-    }
-    
-    .footer__link--wrapper {
-      flex-direction: column;
-    }
-    
-    .social__media--wrap {
-      flex-direction: column;
-    }
 
-    .footer__link--items {
-      margin: 0;
-      padding: 10px;
+  @media screen and (min-width: 960px) and (max-width:1150px) {
+    .img__box {
+      display: flex;
+      flex-direction: column-reverse;
       width: 100%;
+      height: auto;
+      align-items: center;
     }
-
-
-    #navbar__logo {
-      padding-left: 25px;
-    }
-
-    .footerNav ul{
-      display: flex;
-    
-    }
-    
-    
-    /* .body {
-      display: flex;
-      flex-direction: row;
-    } */
   
+    #profile__pic {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      height: auto;
+    }
+  }
